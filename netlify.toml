@@ -1,0 +1,12 @@
+[build]
+  # Publish folder where your `index.html` is located
+  publish = "src"
+  # No build command for plain static site
+  command = ""
+
+# Fallback routing for single-page apps (serves index.html for all paths)
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+  force = true
