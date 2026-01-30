@@ -1,0 +1,31 @@
+.workarea {
+	background-image: url('./images/background_image_todo.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+
+	min-height: 400px;
+	height: 100vh;
+}
+
+.todo-list {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 8px;
+}
+
+/* THE TODO'S TITLES */
+.todoDesigns {
+	background-image: linear-gradient(to right, #00ffee81, #a0cbdb09);
+	padding: 1em;
+	margin: 1em;
+	max-width: fit-content;
+
+	border-radius: 5px;
+}
+
+/* ==========================================================================
+========================================================================== */
+.completedTask {
+	background-color: goldenrod;
+}
